@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  root 'pages#home'
+  get 'pivot' => 'pages#pivot'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
